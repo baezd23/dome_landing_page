@@ -1,0 +1,31 @@
+@media(max-width: 1300px){
+    .language_menu,
+    .login_menu{
+        display: none;
+    }
+
+    .hamburger{
+        margin-right: -10%;
+        ;
+    }
+    
+    #mobile_icon{
+        display: none;
+    }
+    #desktop_icon{
+        display: none;
+    }
+
+    .sticky_nav{
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+    }
+    .grid column_3 justify_items_center align_items_center login_menu{
+        .input
+    }
+
+} 
+@media screen and (max-width:1300px){ 
+
+}
+    
