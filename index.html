@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UNIQ LUXURY</title>
+    <title>Uniq Luxury</title>
 
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/main.css">
@@ -16,12 +16,12 @@
 
 </head>
 
-<div>
+<body>
     <header>
         <div>
             <nav class="sticky_nav">
-                <img id="mobile_icon" src="./img/Exclude.png" alt="Logo" style="display: none;">
                 <img id="desktop_icon" src="./img/uniqluxury.png" alt="Logo">
+                <img id="mobile_icon" src="./img/Exclude.png" alt="Logo">
                 <div class="grid column_3 justify_items_center align_items_center login_menu">
                     <a href="#">LOG IN</a>
                     <p>|</p>
@@ -37,7 +37,7 @@
                 </div>
             </nav>
             <section class="grid section column">
-                <div class="justify_self_r input-wrapper">
+                <div class="justify_self_r input-wrapper" id="input_container">
                     <input class="input" type="text" style="margin-right: 80px;" placeholder="Ex. name@mail.com">
                     <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
@@ -46,7 +46,7 @@
                     </svg>
                 </div>
                 <div class="grid rows justify_self_l">
-                    <div class="grid colum rows justify_self_l" style="margin-top: -50px;">
+                    <div class="grid colum rows justify_self_l follow_section" style="margin-top: -50px;">
                         <span class="rotate_90">Follow</span>
                         <span class="rotate_90 follow-line"></span>
                         <ul>
@@ -68,7 +68,7 @@
         </div>
     </header>
     <section>
-        <article class="grid column_2" style="margin-top: 50px;">
+        <article class="grid column_2  for_sale_section" style="margin-top: 50px;">
             <div class="grid column_2" style="gap: 20px; padding: 5%;">
                 <div class="grid card_box">
                     <img class="img" src="./img/Mask group@2x.png" alt="Castle">
@@ -89,28 +89,22 @@
                             <p class="card_text">Glasgow</p>
                         </div>
                     </div>
-
-
                 </div>
             </div>
             <div class="grid description">
                 <h3 class="text_orange justify_self_r font_24 align_self_end" style="align-self: baseline;">Worldwide
                     gallery</h3>
                 <h2 class="justify_self_r font_48 ">Properties for sale</h2>
-                <p class="font_24" >
-                    In an ultimate jetsetter location or a forever home, our experts have the expertise it takes to
-                    knowledgeably advise you at every stage of the property cycle
-                
-              
+            
                 <div class="grid column_3 rows justify_items_center spancing_title">
-                    <button class="button button_properties_prev">  < Prev</button>
+                    <button class="button button_properties_prev">  
+                        < Prev</button>
                     <button class="button button_properties button_hover">View all properties</button>
                     <button class="button button_properties_next">Next ></button>
                 </div>
-                <div></div>
             </div>
         </article>
-        <article class="grid column_2" style="margin-top: 50px;">
+        <article class="grid column_2 for_rent_section" style="margin-top: 50px;">
             <div class="grid description">
                 <h3 class="text_orange justify_self_l font_24 align_self_end" style="align-self: baseline;">Worldwide
                     gallery</h3>
@@ -158,7 +152,7 @@
                 <h3 class="font_24 text_orange">Luxury properties</h3>
                 <h2 class="font_48">Developments</h2>
             </div>
-            <div class="grid column_4 rows" style="margin: 0 5% 0 5%;">
+            <div class="grid column_4 rows development_section" style="margin: 0 5% 0 5%;">
                 <div class="img_develop_container">
                     <div class="img_mini">
                         <img class="img" src="./img/Mask group-5.jpg" alt="Castle">
@@ -245,7 +239,7 @@
                 </div>
             </div>
         </article>
-        <article class="grid column_2 ">
+        <article class="grid column_2 service_section">
             <div class="img_service">
                 <div class="img_service_bg">
                     <img class="img_service_main" src="./img/Mask group sala.png" alt="rectangle">
@@ -308,6 +302,6 @@
         <hr style="grid-column: 1/-1; width: 100%;">
         <p class="text_white text_center" style="grid-column: 1/-1;">copyright &copy; 2023</p>
     </footer>
-</div>
+</body>
 
 </html>

@@ -1,31 +1,100 @@
-@media(max-width: 1300px){
+@media(max-width: 1300px) {
+
     .language_menu,
-    .login_menu{
+    .login_menu {
         display: none;
     }
 
-    .hamburger{
-        margin-right: -10%;
-        ;
+    .hamburger {
+        margin-right: 10%;
+        padding: 2%;
+        border-left: none;
+        justify-self: right;
     }
-    
-    #mobile_icon{
-        display: none;
+
+    #mobile_icon {
+        display: grid;
+        grid-template-rows: 1fr;
+
     }
-    #desktop_icon{
+
+    #desktop_icon {
         display: none;
     }
 
-    .sticky_nav{
-        grid-template-columns: 1fr 1fr;
+    .sticky_nav {
+        grid-template-columns: 1fr 1fr auto;
         height: auto;
     }
-    .grid column_3 justify_items_center align_items_center login_menu{
-        .input
+
+    #input_container {
+        justify-self: center;
+        width: 80%;
     }
 
-} 
-@media screen and (max-width:1300px){ 
+    .input {
+        width: 100%;
+    }
+
+    .input-icon {
+        display: none;
+    }
+
+    .follow_section {
+        display: none;
+    }
+
+    .for_sale_section {
+        grid-template-columns: 1fr;
+    }
+
+    .for_rent_section {
+        grid-template-columns: 1fr;
+    }
+
+    .description h2 {
+        justify-self: center;
+
+    }
+
+    .description h3 {
+        justify-self: center;
+
+    }
+
+    .spancing_title {
+        margin-top: -1px;
+    }
+
+    .mail_section {
+        display: none;
+    }
+
+    .development_section {
+        grid-template-columns: 1fr;
+    }
+
+    .img_mini {
+        height: 55vw;
+    }
+
+    .service_section{
+        grid-template-columns: 1fr;
+    }
+
+    .img_service_bg {
+        /* border: 1px solid purple; */
+        width: 300px;
+        height: 450px;
+        margin-left: 15%;
+        background-color: #26282B;
+    }
+
+    .img_service_main {
+        width: 400px;
+        height: 83%;
+        margin-left: 25%;
+        margin-top: 12%;
+    }    
 
 }
-    
